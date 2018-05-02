@@ -10,8 +10,8 @@ interface Movie {
   year: number;
   director: string;
   actors: Array<string>;
-  /* hours: Array<string>;
-  room: number; */
+  hours: Array<string>;
+  room: number;
 }
 
 @Injectable()
@@ -19,6 +19,8 @@ export class MoviesinfoService {
   movies: Array<Movie> = movies;
 
   constructor() { }
+
+
 
   getMovies() { return this.movies; }
 

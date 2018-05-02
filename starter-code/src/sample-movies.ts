@@ -16,7 +16,9 @@ const movies = [
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
-    ]
+    ],
+    hours: ['Wed 19:00','Thu 20:00','Fri 21:00'],
+    room: 1
   }, {
     id: 2,
     title: "The Godfather",
@@ -34,7 +36,9 @@ const movies = [
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
-    ]
+    ],
+    hours: ['Wed 19:00','Thu 20:00','Fri 21:00'],
+    room: 2
   }, {
     id: 3,
     title: "The Godfather Part II",
@@ -52,7 +56,9 @@ const movies = [
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
-    ]
+    ],
+    hours: ['Tue 16:00','Thu 17:00','Sat 18:00'],
+    room: 3
   }, {
     id: 4,
     title: "The Dark Knight",
@@ -70,7 +76,9 @@ const movies = [
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
-    ]
+    ],
+    hours: ['Mon 12:00','Fri 13:00','Sat 14:00'],
+    room: 4
   }, {
     id: 5,
     title: "Schindler's List",
@@ -88,7 +96,9 @@ const movies = [
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Davidtz"
-    ]
+    ],
+    hours: ['Fri 13:30','Sat 14:30','Sun 15:30'],
+    room: 5
   }
 ]
 
