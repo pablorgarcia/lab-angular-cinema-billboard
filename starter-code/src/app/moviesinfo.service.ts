@@ -24,6 +24,6 @@ export class MoviesinfoService {
 
   getMovies() { return this.movies; }
 
-  getMovie(id) { return this.movies[0].id; }
+  getMovie(id) { return this.movies.filter(e => e.id = id); }
 
 }
