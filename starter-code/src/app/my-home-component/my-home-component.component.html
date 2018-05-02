@@ -1,14 +1,10 @@
-<p>
-  my-home-component works!
-</p>
+<p>my-home-component works!</p>
+
+
+<button (click)="getMovies()">Get movies</button>
 
 <ul>
   <li *ngFor="let movie of movies">
       {{ movie }}
   </li>
 </ul>
-
-<app-todo-item [name]="todo" (onButton)="warning($event)"></app-todo-item>
-
-<app-todo-item [name]="myName"></app-todo-item>
-<button (click)="changeMyName()">Change the name!</button>
